@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codret (Akash) portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <!-- ----------navbarr-------- -->
+        <div class="nav-bar">
+            <div class="container">
+                <nav>
+                    <h2>Codret Portfolio</h2>
+                    <ul id="sideMenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#my-work">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-solid fa-circle-xmark" onclick="closeMenu()"></i>
+                    </ul>
+                    <i class="fas fa-solid fa-bars" onclick="openMenu()"></i>
+                </nav>
+            </div>
+        </div>
+<!-- ------------------hero section ---------- -->
+        <div class="hero">
+            <div class="hero-text">
+                <p>Web Developer / Web Designer</p>
+                <h1>Hi, I'm <span class="c">Codret</span> (Akash) from <span class="i">I</span><span class="nd">nd</span><Span class="ia">ia</Span>. </h1>
+            </div>
+            <img src="./images/mypic.png" alt="" class="logo">
+        </div>
+        <div class="hero-btn">
+            <a href="#contact" class="btn btn2 hero-btn1" >Contact Me</a>
+        <a href="./images/mypic.png" class="btn btn2 hero-btn2" download>Download CV</a>
+        </div>
+        <div class="hr"></div>
+<!-- -----------------------About Section -------------------------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row ">
+                    <div class="about-col-1">
+                        <img src="./images/work3.jpg" alt="">
+                    </div class="about-content">
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam porro odit minus hic provident exercitationem nobis unde. Placeat atque culpa sint eligendi amet. Harum maxime, dolore eligendi quisquam sunt facere.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">SKills</p>
+                            <p class="tab-links" onclick="opentab('experiences')">Expriences</p>
+                            <p class="tab-links" onclick="opentab('educations')">Educations</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Developer</span><br>Develop Websites and Apps</li>
+                                <li><span>Web Designer</span><br>Design Websites and Apps</li>
+                                <li><span>Seo Optimisation</span><br>Making Websites Seo Friendly </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents " id="experiences">
+                            <ul>
+                                <li><span>Html</span><br>Develop Websites and Apps</li>
+                                <li><span>Css</span><br>Design Websites and Apps</li>
+                                <li><span>JavaScript</span><br>Making Websites Seo Friendly </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents " id="educations">
+                            <ul>
+                                <li><span>Web Developer</span><br>Develop Websites and Apps</li>
+                                <li><span>Web Designer</span><br>Design Websites and Apps</li>
+                                <li><span>Seo Optimisation</span><br>Making Websites Seo Friendly </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hr"></div>
+
+        <!-- ----------------servicess -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="row">
+                    <div class="boxes">
+                        <div class="box">
+                            <i class="fa-solid fa-code"></i>
+                            <h1>Web Development</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus cumque nemo laboriosam dolores. Architecto, dolor debitis, rerum iste adipisci dolores eaque optio hic illum, eius odio quam quisquam rem praesentium!</p>
+                            <a href="#">Learn More</a>
+                        </div>
+    
+                        <div class="box">
+                            <i class="fa-solid fa-crop-simple"></i>
+                            <h1>UI/ UX Design</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus cumque nemo laboriosam dolores. Architecto, dolor debitis, rerum iste adipisci dolores eaque optio hic illum, eius odio quam quisquam rem praesentium!</p>
+                            <a href="#">Learn More</a>
+                        </div>
+    
+                        <div class="box">
+                            <i class="fa-brands fa-app-store"></i>
+                            <h1>App Development</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus cumque nemo laboriosam dolores. Architecto, dolor debitis, rerum iste adipisci dolores eaque optio hic illum, eius odio quam quisquam rem praesentium!</p>
+                            <a href="#">Learn More</a>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hr"></div>
+
+        <!-- -------------my Work------------------ -->
+        <div id="my-work">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="row">
+                    <div>
+                        <img src="./images/work1.jpg" alt=""><img src="./images/work4.jpg" alt="">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>The app connects you to the talented people around the world.
+                                Download it from playstore.
+                            </p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./images/work2.jpg" alt="">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>The app connects you to the talented people around the world.
+                                Download it from playstore.
+                            </p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./images/work3.jpg" alt="">
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>The app connects you to the talented people around the world.
+                                Download it from playstore.
+                            </p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="hr"></div>
+
+        <!-- --------------------contact--------------- -->
+         <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-regular fa-paper-plane"></i> contact@example.com</p>
+                        <p> <i class="fa-solid fa-square-phone"></i> 0123456779</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                        <a href="./images/mypic.png" class="btn btn2" download>Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                            
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+         </div>
+        </div>
+        <div class="copyright">
+           <p>Copyright @Codret. Made with<i class="fa-solid fa-heart"></i> by codret ltd.</p>
+        </div>
+
+    <script src="script.js"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyifdq85D0PaWM9FHBCvCU6Ue-EJDH6NggAko5zz6YiNRXcjKkhGSCrqLeVCjPYa3T3/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent Successfully";
+                form.reset();
+                setTimeout(function(){
+                    msg.innerHTML ="";
+                },5000)
+                ;
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
