@@ -191,4 +191,7 @@
     .copyright p{
         font-size: 12px;
     }
+    #msg{
+    margin-top: -20px;
+}
 }
